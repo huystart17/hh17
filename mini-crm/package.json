@@ -1,0 +1,64 @@
+{
+    "devDependencies": {
+        "eslint": "^4.19.1",
+        "mocha": "^5.1.1",
+        "pm2": "^2.10.4",
+        "request": "^2.87.0",
+        "request-promise": "^4.2.2",
+        "webpack": "^4.13.0",
+        "webpack-cli": "^3.0.8"
+    },
+    "dependencies": {
+        "@feathersjs/configuration": "^1.0.2",
+        "@feathersjs/errors": "^3.3.0",
+        "@feathersjs/express": "^1.2.2",
+        "@feathersjs/feathers": "^3.1.5",
+        "@feathersjs/socketio": "^3.2.1",
+        "anime": "^0.1.2",
+        "animejs": "^2.2.0",
+        "bss": "^1.1.8",
+        "c3": "^0.6.2",
+        "compression": "^1.7.2",
+        "cors": "^2.8.4",
+        "d3": "^5.4.0",
+        "express": "^4.16.3",
+        "helmet": "^3.12.0",
+        "is_js": "^0.9.0",
+        "isjs": "^0.2.1",
+        "mithril": "^1.1.6",
+        "mithril-stream": "^1.1.0",
+        "ramda": "^0.25.0",
+        "serve-favicon": "^2.5.0",
+        "signale": "^1.2.1",
+        "winston": "^3.0.0"
+    },
+    "scripts": {
+        "mocha": "mocha test/ --recursive --exit",
+        "start": "node src_node/",
+        "eslint": "eslint src_node/. test/. --config .eslintrc.json",
+        "build-client": "npx webpack",
+        "test": "npm run eslint && npm run mocha"
+    },
+    "engines": {
+        "npm": ">= 3.0.0",
+        "node": "^9.0.0"
+    },
+    "directories": {
+        "test": "test/",
+        "lib": "src_node"
+    },
+    "bugs": {},
+    "contributors": [],
+    "author": {
+        "email": "huynguyenquang@enbac.com",
+        "name": "huyhuy17-site"
+    },
+    "keywords": [
+        "feathers"
+    ],
+    "main": "src_node",
+    "homepage": "",
+    "version": "0.0.0",
+    "description": "ứng dụng của Huy",
+    "name": "huyhuy17.mysite"
+}
